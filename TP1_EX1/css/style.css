@@ -4,6 +4,22 @@
 }
 
 .text-block{
-    /* flex : 1; */
+    /* flex : 1;  */
     flex-grow: 1;
+}
+
+.nav a{
+    border-radius: 5px;
+    border: 0.5px solid rgb(203, 199, 199)
+}
+
+.col-md-3 {
+    padding-top: 30px;
+    
+}
+
+img{
+    height: 200px;
+    width: 188px;
+    border-radius: 50%;
 }
