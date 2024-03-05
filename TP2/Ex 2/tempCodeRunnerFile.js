@@ -1,1 +1,0 @@
-console.log(filter([1, 2, 3, 4, 5], function (x) { return x % 2 == 0; }));
