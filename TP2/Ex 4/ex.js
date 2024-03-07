@@ -34,24 +34,25 @@ function processDataF(csvText) {
 
 
 
-// // Read the CSV file
-// fs.readFile('./Ex 4/apache_people_projects.csv', 'utf8', (err, csvText) => {
-//     if (err) {
-//         console.error(err);
-//         return;
-//     }
-//     // Process the CSV data
-//     processData(csvText);
-// });
-
-// console.log("WHATISTHAAAAAAAT Functionnal now");
-// 
+// Read the CSV file
 fs.readFile('./Ex 4/apache_people_projects.csv', 'utf8', (err, csvText) => {
     if (err) {
         console.error(err);
         return;
     }
     // Process the CSV data
-    processDataF(csvText);
+    // Console.log("Imperative programmation");
+    processData(csvText);
 });
+
+// 
+// fs.readFile('./Ex 4/apache_people_projects.csv', 'utf8', (err, csvText) => {
+//     if (err) {
+//         console.error(err);
+//         return;
+//     }
+//     // Process the CSV data
+//     // Console.log("Functionnal :  programmation");
+//     processDataF(csvText);
+// });
 
